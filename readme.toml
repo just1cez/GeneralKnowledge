@@ -6,29 +6,47 @@ description = """
 
 文理通识课程是面向全体本科生开设的全校区任选的自主发展课程，目前按内容分为六大模块：
 
-{{% details title="中国文史经典" closed="true" %}}
+<details>
+<summary>中国文史经典</summary>
+
 包括诸子经典、经学传统、史学名著、古典诗文、传统白话文学、现当代文学、写作等单元。
-{{% /details %}}
 
-{{% details title="世界文明与对话" closed="true" %}}
+</details>
+
+<details>
+<summary>世界文明与对话</summary>
+
 包括外国文学、欧美文明、亚洲文明、海洋文明等单元。
-{{% /details %}}
 
-{{% details title="哲学与道德思考" closed="true" %}}
+</details>
+
+<details>
+<summary>哲学与道德思考</summary>
+
 包括哲学入门、道德思考、心理健康等单元。
-{{% /details %}}
 
-{{% details title="社会与当代中国" closed="true" %}}
+</details>
+
+<details>
+<summary>社会与当代中国</summary>
+
 包括社会、政治、经济、法律、文化、生态等单元。
-{{% /details %}}
 
-{{% details title="科学探索与创新" closed="true" %}}
+</details>
+
+<details>
+<summary>科学探索与创新</summary>
+
 包括数学、计算机、物理、生物、化学等单元。
-{{% /details %}}
 
-{{% details title="艺术鉴赏与创作" closed="true" %}}
+</details>
+
+<details>
+<summary>艺术鉴赏与创作</summary>
+
 包括音乐、美术与书法、舞蹈、戏剧、影视、摄影、建筑、演讲等单元。
-{{% /details %}}
+
+</details>
 
 按形式分为线下、线上 MOOC 两种。
 
@@ -42,21 +60,33 @@ description = """
 
 各级对文理通识的学分要求各不相同，可前往教务系统的 **「学生个人成绩查询-学习进度」** 中查看目前获得学分的进度情况。学分要求具体如下：
 
-{{% details title="21 级" closed="true" %}}
+<details>
+<summary>21 级</summary>
+
 不少于 20 学分，其中**人文与艺术类**课程至少 6 学分、**社会科学类**课程至少 2 学分、**科学与技术类**课程至少 2 学分、**创新与实践类**课程至少 2 学分、**心理类**课程至少 2 学分、**美育类**课程至少 2 学分，以上课程中**英文**课程至少 10 学分。
-{{% /details %}}
 
-{{% details title="22 级" closed="true" %}}
+</details>
+
+<details>
+<summary>22 级</summary>
+
 不少于 10 学分，其中**英文**课程至少 2 学分、**心理类**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门。
-{{% /details %}}
 
-{{% details title="23 级" closed="true" %}}
+</details>
+
+<details>
+<summary>23 级</summary>
+
 不少于 8 学分，其中**英文**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门。
-{{% /details %}}
 
-{{% details title="24 级起" closed="true" %}}
+</details>
+
+<details>
+<summary>24 级起</summary>
+
 不少于 8 学分，其中**英文**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门，《**卓越人才生涯规划**》为文理通识必修课，需大一学年完成。
-{{% /details %}}
+
+</details>
 
 其中 22 级起的**思政类选择性必修课程**为**四史类**课程。
 
@@ -567,6 +597,44 @@ content = """
 虽然是全英课，但是第二周的三节课却都是某第三方公司的人来打广告（甚至全程使用中文，说好的全英课呢？）。制作小组项目要先自费199元购买订阅，制作一个质量极低的AI视频（笔者的小组由于订阅配额太少甚至还要额外垫钱）。完成作业后才能凭发票和付款截图找老师报销。
 至于AI使用，老师把网页对话称为"agent"，该公司的人甚至还在宣传openclaw，可以说是质量极低。
 
-总结：这门课不推荐任何人选，全英课还是推荐选 MOOC。这种课的逆天程度无出其右了。
+总结：这门课不太推荐选择，全英课还是推荐选 MOOC。
 """
 author = { name = "justice", link = "https://github.com/just1cez", date = "2026-07" }
+
+[[courses]]
+name = "演讲与口才"
+
+[[courses.teachers]]
+name = "王巍"
+
+[[courses.sections]]
+title = "课程概况"
+
+[[courses.sections.items]]
+content = """
+王巍老师上课非常温柔，即使你表现再怎么差都会鼓励你，不会骂人，老师重点看的是你有没有进步，即使你最后学的差（相对大佬），如果你进步比较大老师也会给出很高的分数
+课堂上会有一个课前展示，每周两节课，第二节课布置主题，第二周来讲（不然怎么叫演讲与口才），为了交差老师会偶尔布置几个小作业
+期末形式是老师提前2周选定10个题目，准备两篇稿子，现场抽签选一篇上去讲，要准备ppt/bgm
+可能看到上面的内容各位同学已经退缩了，但王巍老师是一个非常好的老师，她的内容充满了干货，个人觉得这对当代大学生算一个比较重要的一个能力，你如果认真上完了个人觉得会有非常大的收获，给分也算高。
+"""
+author = { name = "[Satellite]，2026-07", link = "", date = "" }
+
+[[courses]]
+name = "大学生心理健康"
+
+[[courses.sections]]
+title = "开课学校"
+
+[[courses.sections.items]]
+content = "- 深圳大学"
+
+[[courses.sections]]
+title = "课程概况"
+
+[[courses.sections.items]]
+content = """
+这门课虽然在线下文理通识的选课渠道里选课，但是它其实是一门线上的 MOOC 课，整个课程只有一节课在深圳大学线下开展，其余全部流程都跟 MOOC 课程一致
+唯一的线下课的签到方式是定位扫码，占 10 分
+期末考试的相关习题答案网上都有，很轻松就能拿 100 分，不管是刷分还是凑文理通识分数，这门课的性价比都不低
+"""
+author = { name = "Cecilia", link = "https://github.com/mircecilia", date = "2026-08" }
